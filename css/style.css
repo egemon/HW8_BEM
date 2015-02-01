@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #f0f0f0;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
+	
+}
+
+.wrapper{
+	margin: 0 auto;
+	width: 960px;
+}
+
+.content{
+	width: 585px;
+}
+
+
+/* list */
+.list{
+	position: relative;
+	overflow: hidden;
+	padding: 10px 24px;
+}
+.list__wrapper{
+	position: relative;
+	overflow: hidden;
+}
+.list__title{
+	font-size: 20px;
+	line-height: 25px;
+	color: #0e69b2;
+	padding-bottom: 5px;
+}
+.list__menu{
+	float: left;
+	width: 50%;
+	list-style: none;
+	font-size: 14px;
+	line-height: 16px;
+}
+.list__link{
+	position: relative;
+	color: #0e69b2;
+	padding-left: 17px;
+}
+.list__link:hover{
+	text-decoration: none;
+}
+.list__link:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -5px;
+	width: 10px;
+	height: 9px;
+	background: url(../img/list_point.png) 0 0 no-repeat;
+}
+
+/* list--program */
+.list--program{
+	background: url(../img/bg_list_blue.png) 0 0 no-repeat;
+}
+.list--program .list__title,
+.list--program .list__link{
+	color: #fff;
+}
+.list--program .list__link:before{
+	background-position: -11px 0;
+}
+
+
+
+
+
+
+
+
+.menu{
+	width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
